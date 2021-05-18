@@ -1,0 +1,493 @@
+{
+    "key": "group_601181983bcb0",
+    "title": "Contained CTA",
+    "fields": [
+        {
+            "key": "field_6011819844822",
+            "label": "Content",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_60118198484b2",
+            "label": "Content",
+            "name": "content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<h3 class=\"font-bold text-xl\">Ready to dive in?\r\nStart your free trial today.<\/h3>\r\n<br>\r\n<br>\r\n<button class=\"relative rounded-lg transition-all duration-300 inline-flex items-center justify-center text-sm font-bold text-white px-4 py-3 leading-none bg-blue-500 border border-solid border-blue-500 mr-2 mb-2\">Large button<\/button> <button class=\"relative rounded-lg transition-all duration-300 inline-flex items-center justify-center font-bold text-sm text-blue-500 px-4 py-3 leading-none bg-white border border-solid border-blue-500 mr-2 mb-2\">Large button<\/button>",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_6011819853796",
+            "label": "Configuration",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "placement": "top",
+            "endpoint": 0,
+            "no_preference": 0,
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_601184fcee765",
+            "label": "Background color",
+            "name": "bg_color",
+            "type": "pip_font_color",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "field_type": "select",
+            "multiple": 0,
+            "ui": 0,
+            "pip_default_value": "",
+            "class_output": "background",
+            "show_add_to_editor": 1,
+            "choices": [],
+            "placeholder": "",
+            "return_format": "value",
+            "allow_null": true,
+            "other_choice": 0,
+            "allow_custom": 0,
+            "ajax": false
+        },
+        {
+            "key": "field_6017d4c48e7df",
+            "label": "Advanced mode",
+            "name": "advanced_mode",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_6017d4cd8e7f4",
+            "label": "Container size",
+            "name": "container_width",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "acfe_seamless_style": 1,
+            "acfe_group_modal": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6017d4cd8e7f5",
+                    "label": "Mobile",
+                    "name": "default",
+                    "type": "select",
+                    "instructions": "Below 640px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d4cd8e7f6",
+                    "label": "Tablet",
+                    "name": "sm",
+                    "type": "select",
+                    "instructions": "Between 640px & 1024px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d4cd8e7f7",
+                    "label": "Desktop",
+                    "name": "lg",
+                    "type": "select",
+                    "instructions": "Above 1024px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d4cd8e7f8",
+                    "label": "Mobile",
+                    "name": "default_advanced",
+                    "type": "select",
+                    "instructions": "Below 640px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d4cd8e7f9",
+                    "label": "Tablet (portrait)",
+                    "name": "sm_advanced",
+                    "type": "select",
+                    "instructions": "Between 640px & 768px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d4cd8e7fa",
+                    "label": "Tablet (landscape)",
+                    "name": "md_advanced",
+                    "type": "select",
+                    "instructions": "Entre 768px et 1024px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Petit",
+                        "w-8\/12": "Moyen",
+                        "w-10\/12": "Large",
+                        "w-full": "Pleine largeur"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d4cd8e7fb",
+                    "label": "Small desktop",
+                    "name": "lg_advanced",
+                    "type": "select",
+                    "instructions": "Between 1024px & 1280px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d6c52f317",
+                    "label": "Desktop",
+                    "name": "xl_advanced",
+                    "type": "select",
+                    "instructions": "Between 1280px & 1536px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6017d6da2f318",
+                    "label": "Large desktop",
+                    "name": "2xl_advanced",
+                    "type": "select",
+                    "instructions": "Above 1536px",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6017d4c48e7df",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "16",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "w-1\/2": "Small",
+                        "w-8\/12": "Medium",
+                        "w-10\/12": "Large",
+                        "w-full": "Full width"
+                    },
+                    "default_value": "w-full",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "_pip_thumbnail": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "_pip_is_layout": 1,
+    "_pip_layout_slug": "cta-simple-contained-nemo",
+    "_pip_render_layout": "cta-simple-contained-nemo.php",
+    "_pip_render_style": "cta-simple-contained-nemo.css",
+    "_pip_render_script": "cta-simple-contained-nemo.js",
+    "field_add_config_file": 0,
+    "field_add_configuration": 0,
+    "pip_layout_var": {
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601152580ebc5": {
+            "pip_layout_var_key": "content-wrapper",
+            "pip_layout_var_value": "mx-auto border rounded-xl px-6 py-8 md:px-10 md:py-12 lg:p-16"
+        }
+    },
+    "pip_layout_vars_lock": 1,
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1621349933,
+    "layout_categories": {
+        "cta": "CTA"
+    },
+    "layout_collections": {
+        "nemo": "Némo"
+    }
+}
