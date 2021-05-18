@@ -1,0 +1,9 @@
+header.scroll-transparent,
+header.scroll-color {
+    @apply sticky top-0 shadow z-10;
+    @apply transition-all duration-300;
+}
+
+header.scroll-transparent .wrapper-main-transparent {
+    @apply bg-white;
+}

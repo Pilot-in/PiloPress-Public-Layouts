@@ -1,0 +1,202 @@
+{
+    "key": "group_6019669c74a5b",
+    "title": "Menu",
+    "fields": [
+        {
+            "key": "field_60a3c597d5ec0",
+            "label": "Couleur de fond",
+            "name": "section_bg_color",
+            "type": "pip_font_color",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "field_type": "select",
+            "multiple": 0,
+            "ui": 0,
+            "pip_default_value": "",
+            "class_output": "background",
+            "show_add_to_editor": 1,
+            "choices": [],
+            "placeholder": "",
+            "return_format": "value",
+            "allow_null": true,
+            "other_choice": 0,
+            "allow_custom": 0,
+            "ajax": false
+        },
+        {
+            "key": "field_601967235d9f1",
+            "label": "Logo (fond transparent)",
+            "name": "logo_transparent",
+            "type": "image",
+            "instructions": "Laisser vide pour utiliser le logo défini dans <i>Apparence<\/i> > <i>Personnaliser<\/i>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "uploader": "wp",
+            "acfe_thumbnail": 0,
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_601967425d9f2",
+            "label": "Logo (fond coloré)",
+            "name": "logo_background",
+            "type": "image",
+            "instructions": "Laisser vide pour utiliser le logo défini dans <i>Apparence<\/i> > <i>Personnaliser<\/i>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "uploader": "wp",
+            "acfe_thumbnail": 0,
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "acfe_field_group_condition": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "all"
+            }
+        ],
+        [
+            {
+                "param": "pip-pattern",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "_pip_thumbnail": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "_pip_is_layout": 1,
+    "_pip_layout_slug": "menu-contained-nemo",
+    "_pip_render_layout": "menu-contained-nemo.php",
+    "_pip_render_style": "menu-contained-nemo.css",
+    "_pip_render_script": "menu-contained-nemo.js",
+    "field_add_config_file": 1,
+    "_pip_config_file": "configuration.php",
+    "field_add_configuration": 0,
+    "pip_layout_var": {
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196df724ded": {
+            "pip_layout_var_key": "wrapper-main-transparent",
+            "pip_layout_var_value": "h-20 absolute top-0 inset-x-0"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-601a6c3c00110": {
+            "pip_layout_var_key": "wrapper-main-color",
+            "pip_layout_var_value": "h-20"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a64447993b": {
+            "pip_layout_var_key": "inner-wrapper-main",
+            "pip_layout_var_value": "flex items-center justify-between lg:justify-start h-full"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196df724dee": {
+            "pip_layout_var_key": "wrapper-logo",
+            "pip_layout_var_value": "z-10"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196df824def": {
+            "pip_layout_var_key": "wrapper-menu-items",
+            "pip_layout_var_value": "hidden lg:flex w-full h-auto lg:h-full items-center justify-end absolute lg:static top-20 left-0 bg-white lg:bg-transparent z-10"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a614e5add4": {
+            "pip_layout_var_key": "scroll-after-nb-pixels",
+            "pip_layout_var_value": "80"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196e7ad75b7": {
+            "pip_layout_var_key": "logo",
+            "pip_layout_var_value": "h-16 w-16 object-center object-cover"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196ef18fc34": {
+            "pip_layout_var_key": "menu-classes-transparent",
+            "pip_layout_var_value": "lg:flex items-center h-full p-4 lg:p-0 lg:text-black"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-601a6d15be3fd": {
+            "pip_layout_var_key": "menu-classes-color",
+            "pip_layout_var_value": "lg:flex items-center h-full p-4 lg:p-0"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a6573c9db6": {
+            "pip_layout_var_key": "wrapper-burger-button",
+            "pip_layout_var_value": "block lg:hidden z-10"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a659cc9db7": {
+            "pip_layout_var_key": "burger-button-transparent",
+            "pip_layout_var_value": "flex items-center px-3 py-2 rounded text-blue-800 focus:text-primary focus:outline-none hover:text-blue-500"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-601a6dc5be3fe": {
+            "pip_layout_var_key": "burger-button-color",
+            "pip_layout_var_value": "flex items-center px-3 py-2 rounded text-black focus:text-blue-800 focus:outline-none hover:text-blue-500"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a65cdc9db8": {
+            "pip_layout_var_key": "burger-button-close",
+            "pip_layout_var_value": "fill-current h-6 w-6"
+        },
+        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a65ddc9db9": {
+            "pip_layout_var_key": "burger-button-open",
+            "pip_layout_var_value": "h-6 w-6 fill-current hidden"
+        }
+    },
+    "pip_layout_vars_lock": 1,
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1621346687,
+    "layout_categories": {
+        "menu": "Menu"
+    },
+    "layout_collections": {
+        "nemo": "Némo"
+    }
+}
