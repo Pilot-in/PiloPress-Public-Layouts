@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_60a3c597d5ec0",
-            "label": "Couleur de fond",
+            "label": "Background color",
             "name": "section_bg_color",
             "type": "pip_font_color",
             "instructions": "",
@@ -31,10 +31,10 @@
         },
         {
             "key": "field_601967235d9f1",
-            "label": "Logo (fond transparent)",
+            "label": "Logo (transparent background)",
             "name": "logo_transparent",
             "type": "image",
-            "instructions": "Laisser vide pour utiliser le logo défini dans <i>Apparence<\/i> > <i>Personnaliser<\/i>.",
+            "instructions": "Leave empty to use logo defined in <i>Appearance<\/i> > <i>Customize<\/i>.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -59,10 +59,10 @@
         },
         {
             "key": "field_601967425d9f2",
-            "label": "Logo (fond coloré)",
+            "label": "Logo (colored background)",
             "name": "logo_background",
             "type": "image",
-            "instructions": "Laisser vide pour utiliser le logo défini dans <i>Apparence<\/i> > <i>Personnaliser<\/i>.",
+            "instructions": "Leave empty to use logo defined in <i>Appearance<\/i> > <i>Customize<\/i>.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -131,59 +131,59 @@
     "_pip_config_file": "configuration.php",
     "field_add_configuration": 0,
     "pip_layout_var": {
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196df724ded": {
+        "row-60196df724ded": {
             "pip_layout_var_key": "wrapper-main-transparent",
             "pip_layout_var_value": "h-20 absolute top-0 inset-x-0"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-601a6c3c00110": {
+        "row-601a6c3c00110": {
             "pip_layout_var_key": "wrapper-main-color",
             "pip_layout_var_value": "h-20"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a64447993b": {
+        "row-601a64447993b": {
             "pip_layout_var_key": "inner-wrapper-main",
             "pip_layout_var_value": "flex items-center justify-between lg:justify-start h-full"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196df724dee": {
+        "row-60196df724dee": {
             "pip_layout_var_key": "wrapper-logo",
             "pip_layout_var_value": "z-10"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196df824def": {
+        "row-60196df824def": {
             "pip_layout_var_key": "wrapper-menu-items",
             "pip_layout_var_value": "hidden lg:flex w-full h-auto lg:h-full items-center justify-end absolute lg:static top-20 left-0 bg-white lg:bg-transparent z-10"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a614e5add4": {
+        "row-601a614e5add4": {
             "pip_layout_var_key": "scroll-after-nb-pixels",
             "pip_layout_var_value": "80"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196e7ad75b7": {
+        "row-60196e7ad75b7": {
             "pip_layout_var_key": "logo",
             "pip_layout_var_value": "h-16 w-16 object-center object-cover"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-60196ef18fc34": {
+        "row-60196ef18fc34": {
             "pip_layout_var_key": "menu-classes-transparent",
             "pip_layout_var_value": "lg:flex items-center h-full p-4 lg:p-0 lg:text-black"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-601a6d15be3fd": {
+        "row-601a6d15be3fd": {
             "pip_layout_var_key": "menu-classes-color",
             "pip_layout_var_value": "lg:flex items-center h-full p-4 lg:p-0"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a6573c9db6": {
+        "row-601a6573c9db6": {
             "pip_layout_var_key": "wrapper-burger-button",
             "pip_layout_var_value": "block lg:hidden z-10"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a659cc9db7": {
+        "row-601a659cc9db7": {
             "pip_layout_var_key": "burger-button-transparent",
             "pip_layout_var_value": "flex items-center px-3 py-2 rounded text-blue-800 focus:text-primary focus:outline-none hover:text-blue-500"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-601a6dc5be3fe": {
+        "row-601a6dc5be3fe": {
             "pip_layout_var_key": "burger-button-color",
             "pip_layout_var_value": "flex items-center px-3 py-2 rounded text-black focus:text-blue-800 focus:outline-none hover:text-blue-500"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a65cdc9db8": {
+        "row-601a65cdc9db8": {
             "pip_layout_var_key": "burger-button-close",
             "pip_layout_var_value": "fill-current h-6 w-6"
         },
-        "row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-row-601a65ddc9db9": {
+        "row-601a65ddc9db9": {
             "pip_layout_var_key": "burger-button-open",
             "pip_layout_var_value": "h-6 w-6 fill-current hidden"
         }
