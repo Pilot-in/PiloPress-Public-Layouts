@@ -1,7 +1,5 @@
 # Basic layouts for Pilo'Press
 
-----------------
-
 ## Installation  
 
 1. **Download** this repo as zip or **clone** it.
