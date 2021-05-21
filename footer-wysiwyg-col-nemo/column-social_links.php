@@ -18,7 +18,7 @@ $social_links = get_sub_field( 'social_links' );
                     <?php $icon_class = acf_maybe_get( $social_link, 'icon' ); ?>
                     <?php $link_item = acf_maybe_get( $social_link, 'link' ); ?>
 
-                    <a href="<?php echo acf_maybe_get( $link_item, 'url' ); ?>">
+                    <a target="<?php echo acf_maybe_get( $link_item, 'target' ); ?>" href="<?php echo acf_maybe_get( $link_item, 'url' ); ?>">
                         <?php if ( $icon_class ) : ?>
                             <i class="social-link-icon <?php echo $icon_class . ' ' . acf_maybe_get( $column_vars, 'social_link_icon' ); ?>"></i>
                         <?php endif; ?>
